@@ -45,3 +45,24 @@ public:
         return false;
     }
 };
+
+// class Solution {
+// public:
+//     bool check(vector<int>& a) {
+//             int c = 0 ;
+//             int n = a.size();
+//         for(int i = 0 ; i<n ; i++){
+//             int next = (i+1)%n;
+//            if(a[i]>a[next]){
+//             c++;
+//            }
+//         }
+//         if(c==1 || c==0){
+//             return true;
+//         }
+//         else{
+//          return false;
+//         }
+//   return true;
+//     }
+// };
